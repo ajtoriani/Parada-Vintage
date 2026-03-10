@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Móveis rústicos exclusivos, casinhas de boneca em tamanho real e brinquedos artesanais feitos à mão pelo mestre Antônio Sales. Tradição e durabilidade em madeira maciça.">
+<meta name="keywords" content="móveis rústicos Taubaté, casinha de boneca madeira, artesanato madeira Tremembé, Antônio Sales, brinquedos educativos madeira">
+<meta name="author" content="AJ - Ana Julia Toriani">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="A Parada Vintage | Arte em Madeira por Antônio Sales">
+<meta property="og:description" content="Peças exclusivas com alma e tradição. Conheça nosso catálogo de móveis rústicos e casinhas de boneca.">
+
+<link rel="apple-touch-icon" sizes="180x180" href="./logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./logo.png">
+<link rel="shortcut icon" href="./favicon.ico">
+    <title>A Parada Vintage | Antônio Sales</title>
+    <meta name="description" content="Móveis rústicos, casinhas de boneca e brinquedos exclusivos em Taubaté/SP.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+    </div>
+
+    <a href="https://wa.me/5512981031988" class="whatsapp-btn" target="_blank" aria-label="Falar com o Antônio no WhatsApp">
+        <svg viewBox="0 0 32 32"><path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.733 5.476 2.017 7.783l-2.017 7.37 7.54-1.981c2.253 1.194 4.83 1.868 7.56 1.868 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.454 0-4.757-0.613-6.773-1.691l-0.485-0.259-4.484 1.177 1.2-4.385-0.285-0.453c-1.189-1.897-1.878-4.144-1.878-6.556 0-7.1 5.773-12.873 12.873-12.873s12.873 5.773 12.873 12.873c0 7.1-5.774 12.873-12.873 12.873zM22.507 18.733c-0.356-0.178-2.105-1.039-2.431-1.156s-0.563-0.178-0.8 0.178c-0.237 0.356-0.92 1.156-1.126 1.393s-0.415 0.267-0.77 0.089c-0.356-0.178-1.5-0.553-2.859-1.767-1.057-0.943-1.77-2.107-1.977-2.463s-0.022-0.548 0.156-0.724c0.159-0.159 0.356-0.415 0.534-0.623s0.237-0.356 0.356-0.593c0.119-0.237 0.059-0.445-0.030-0.623s-0.8-1.926-1.1-2.641c-0.292-0.701-0.589-0.605-0.803-0.617s-0.445-0.012-0.682-0.012c-0.237 0-0.623 0.089-0.948 0.445s-1.245 1.215-1.245 2.964c0 1.748 1.274 3.438 1.452 3.675s2.508 3.829 6.075 5.366c0.848 0.366 1.512 0.584 2.029 0.748 0.852 0.27 1.627 0.232 2.24 0.141 0.684-0.101 2.105-0.86 2.401-1.69s0.297-1.541 0.207-1.69c-0.091-0.148-0.327-0.237-0.682-0.415z"></path></svg>
+    </a>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">×</span>
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <img id="lightbox-img" src="" alt="Ampliada">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title">Nome da Peça</h3>
+                <button class="btn-solid-wa" id="wa-share-btn">Pedir Orçamento desta Peça</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">A PARADA <span>VINTAGE</span></div>
+            <ul class="nav-links">
+                <li><a href="#exclusivos">Exclusivos</a></li>
+                <li><a href="#brinquedos">Brinquedos</a></li>
+                <li><a href="#casinhas">Casinhas</a></li>
+                <li><a href="#moveis">Móveis</a></li>
+                <li><a href="#cozinha">Cozinha</a></li>
+                <li><a href="#local">Endereço</a></li>
+                <li><a href="https://wa.me/5512981031988" class="btn-cta">Orçamento</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-overlay" id="mobile-menu">
+        <ul class="mobile-list">
+            <li><a href="#brinquedos" onclick="toggleMenu()">Brinquedos</a></li>
+            <li><a href="#casinhas" onclick="toggleMenu()">Casinhas</a></li>
+            <li><a href="#moveis" onclick="toggleMenu()">Móveis</a></li>
+            <li><a href="#exclusivos" onclick="toggleMenu()">Exclusivos</a></li>
+            <li><a href="#local" onclick="toggleMenu()">Endereço</a></li>
+            <li><a href="https://wa.me/5512981031988" class="btn-cta">Falar com Antônio</a></li>
+        </ul>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Tradição em Taubaté</span>
+            <h1>Mobiliário Rústico com <span>Alma.</span></h1>
+            <p>Peças exclusivas esculpidas à mão por Antônio Sales. Durabilidade e história em cada detalhe da madeira.</p>
+        </div>
+        <div class="hero-image-wrapper">
+            <img src="./logo.png" alt="Mestre Antônio Sales na Oficina" class="hero-img" loading="eager">
+        </div>
+    </header>
+
+    <main>
+        <section id="exclusivos" class="sec">
+            <div class="sec-head">
+                <h2>Peças Personalizadas</h2>
+            </div>
+            <div class="exclusive-content">
+                <p>Além das nossas coleções, o mestre Antônio Sales desenvolve peças 100% exclusivas. Você pode escolher cores, tamanhos e designs específicos para sua casa ou coleção.</p>
+                <a href="https://wa.me/5512981031988" class="btn-solid" style="margin-top: 20px; display: inline-block;">Solicitar Projeto Único</a>
+            </div>
+        </section>
+
+        <section id="brinquedos" class="sec">
+            <div class="sec-head">
+                <h2>Brinquedos Colecionáveis</h2>
+                <div class="slider-btns">
+                    <button onclick="scrollS('s-toys', -1)" aria-label="Anterior">&#10094;</button>
+                    <button onclick="scrollS('s-toys', 1)" aria-label="Próximo">&#10095;</button>
+                </div>
+            </div>
+            <div class="slider" id="s-toys">
+                <div class="card" onclick="openLightbox('./brinquedos.png', 'Jipes Vintage')">
+                    <div class="card-img" style="background-image: url('./brinquedos.png')"></div>
+                    <div class="card-txt"><h3>Jipes Vintage</h3><p>Réplicas em madeira maciça.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('./rolima.png', 'Carrinho de Rolimã')">
+                    <div class="card-img" style="background-image: url('./rolima.png')"></div>
+                    <div class="card-txt"><h3>Carrinho de Rolimã</h3><p>Tradição de pai para filho</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('miniaturas.png', 'Miniaturas')">
+                    <div class="card-img" style="background-image: url('miniaturas.png')"></div>
+                    <div class="card-txt"><h3>Miniaturas</h3><p>O presente que atravessa gerações.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('casinhaspet.png', 'Casinhas')">
+                    <div class="card-img" style="background-image: url('casinhaspet.png')"></div>
+                    <div class="card-txt"><h3>Casinhas de Boneca</h3><p>Peças ricas em detalhes manuais.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="casinhas" class="sec dark">
+            <div class="sec-head">
+                <h2 class="w">Casinhas de Boneca</h2>
+                <div class="slider-btns">
+                    <button class="white" onclick="scrollS('s-house', -1)">&#10094;</button>
+                    <button class="white" onclick="scrollS('s-house', 1)">&#10095;</button>
+                </div>
+            </div>
+            <div class="slider" id="s-house">
+                <div class="card-large" onclick="openLightbox('./casinha.png', 'Chalé Premium Tamanho Real')">
+                    <div class="card-img" style="background-image: url('./casinha.png')"></div>
+                    <div class="card-txt">
+                        <h3>Casa de Boneca Tamanho Real</h3>
+                        <p>Estrutura reforçada, janelas esculpidas e pintura atóxica. Um sonho de infância que dura a vida toda.</p>
+                        <a href="https://wa.me/5512981031988" class="btn-solid">Consultar</a>
+                    </div>
+                </div>
+                <div class="card-large" onclick="openLightbox('chale.png', 'Mansão Vintage')">
+                    <div class="card-img" style="background-image: url('chale.png')"></div>
+                    <div class="card-txt">
+                        <h3>Chalé Vintage</h3>
+                        <p>Uma casinha em madeira rústica com detalhes de coração, unindo o charme do artesanato feito à mão à durabilidade.</p>
+                        <a href="https://wa.me/5512981031988" class="btn-solid">Consultar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="moveis" class="sec">
+            <div class="sec-head">
+                <h2>Móveis Rústicos</h2>
+                <div class="slider-btns">
+                    <button onclick="scrollS('s-furniture', -1)">&#10094;</button>
+                    <button onclick="scrollS('s-furniture', 1)">&#10095;</button>
+                </div>
+            </div>
+            <div class="slider" id="s-furniture">
+                <div class="card" onclick="openLightbox('mesacadeira.png', 'Mesa Rústica')">
+                    <div class="card-img" style="background-image: url('mesacadeira.png')"></div>
+                    <div class="card-txt"><h3>Mesa Rústica</h3><p>Mesa para os encontros de família</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('cadeirajardim.png', 'Bancos de Jardim')">
+                    <div class="card-img" style="background-image: url('cadeirajardim.png')"></div>
+                    <div class="card-txt"><h3>Bancos de Jardim</h3><p>Resistência e estética rústica.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('mesalinha.png', 'Mesas Exclusivas')">
+                    <div class="card-img" style="background-image: url('mesalinha.png')"></div>
+                    <div class="card-txt"><h3>Mesa para Sala</h3><p>Design exclusivo para interiores.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('mesasala.png', 'Mesa Sala')">
+                    <div class="card-img" style="background-image: url('mesasala.png')"></div>
+                    <div class="card-txt"><h3>Mesa para Salas</h3><p>Um detalhe rústico na sua sala.</p></div>
+            </div>
+        </section>
+
+        <section id="cozinha" class="sec">
+            <div class="sec-head">
+                <h2>Cozinha & Utilitários</h2>
+                <div class="slider-btns">
+                    <button onclick="scrollS('s-kitchen', -1)">❮</button>
+                    <button onclick="scrollS('s-kitchen', 1)">❯</button>
+                </div>
+            </div>
+            <div class="slider" id="s-kitchen">
+                <div class="card" onclick="openLightbox('cafeteira.png', 'Cafeteira Rústica')">
+                    <div class="card-img" style="background-image: url('cafeteira.png')"></div>
+                    <div class="card-txt"><h3>Estação de Café</h3><p>O charme do café coado na hora.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('beijaflor.png', 'Bebedouro Beija-flor')">
+                    <div class="card-img" style="background-image: url('beijaflor.png')"></div>
+                    <div class="card-txt"><h3>Bebedouro Beija-flor</h3><p>Decoração e vida para seu jardim.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('vinho.png', 'Suporte de Bebidas')">
+                    <div class="card-img" style="background-image: url('vinho.png')"></div>
+                    <div class="card-txt"><h3>Bar Exclusivo</h3><p>Suporte para marcar seus momentos especiais.</p></div>
+                </div>
+                <div class="card" onclick="openLightbox('cafeparede.png', 'Café de Parede')">
+                    <div class="card-img" style="background-image: url('cafeparede.png')"></div>
+                    <div class="card-txt"><h3>Café de Parede</h3><p>Madeira tratada e design único.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="local" class="sec local-sec">
+            <div class="sec-head">
+                <h2>A parada vintage agora tem uma casa, Emporio das Artes</h2>
+            </div>
+            <div class="map-container">
+                <p style="margin-bottom: 20px;"> Rodovia Pedro Celete, 1900 - Bairro Aterrado, Tremembé/SP</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.6415510619286!2d-45.54133462547056!3d-23.183296148386857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf9001f661c3b%3A0x6b8b0e6e0b0e0e0e!2sRod.%20Pedro%20Celete%2C%201900%20-%20Aterrado%2C%20Trememb%C3%A9%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-logo">A PARADA <span>VINTAGE</span></div>
+        <p>Artesanato em Madeira | Antônio Sales | Taubaté - SP</p>
+        <div class="copyright">
+            © 2026 Todos os direitos reservados.
+        </div>
+        <div><p>Desenvolvido por <a href="https://anajuliatorianipessoa.vercel.app/" style="color:#FDFBF7">AJ</a></p></div>
+    </footer>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
