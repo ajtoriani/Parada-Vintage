@@ -121,7 +121,6 @@ body { background: var(--sand); color: var(--primary); font-family: var(--sans);
 
 .hero-content h1 { font-family: var(--serif); font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin: 20px 0; }
 .hero-content h1 span { color: var(--gold); font-style: italic; }
-.badge { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; }
 
 .hero-image-wrapper { 
     width: 50%; 
